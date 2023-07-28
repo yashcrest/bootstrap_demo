@@ -4,306 +4,190 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
     <title>Document</title>
 </head>
 <body>
-    <!-- Nav Bar -->
+    <!-- Nav bar -->    
     <nav class="navbar navbar-expand-md navbar-dark bg-dark py-3 fixed-top">
         <div class="container">
-            <a href="#" class="navbar-brand">FrontEnd Bootcamp</a>
+            <a href="#" class="navbar-brand text-warning">Yash Shrestha</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                 <span class="navbar-toggler-icon">  
                 </span>
             </button>
-            <div class="collapse navbar-collapse" id="navmenu">
+            <div class="collapse navbar-collapse"  id="navmenu">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item" >
-                        <a href="#learn" class="nav-link">What You'll Learn</a>
+                    <li class="nav-item">
+                        <a href="#learn" class="nav-link">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#questions" class="nav-link">Questions</a>
+                        <a href="#questions" class="nav-link">Resume</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#instructions" class="nav-link">Instructors</a>
+                        <a href="#contact" class="nav-link">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- Showcase -->
+    <!-- About Me Section -->
     <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
         <div class="container">
             <div class="d-sm-flex align-items-center justify-content-between">
-                <div class="pb-5">
-                    <h1>Hi I'm <span class="text-warning">Yash</span></h1>
-                    <p class="lead my-4">I am aspiring Software developer, specializing on Javascirpt</p>
-                    <button class="btn btn-warning btn-lg">Find out more</button>
+                <div class="p-2">
+                    <h1>Hi I'm <span class="text-warning">Yash Shrestha</span></h1>
+                    <p class="lead mt-4">Specializing in JavaScript, I am a dedicated developer with proficiency in React and Node.js, crafting dynamic, high-performance web applications.</p>
+                    <div class="h1">
+                        <a href="https://github.com/yashcrest" class="bi bi-github text-warning mx-2"></a>
+                        <a href="https://www.linkedin.com/in/yash-shrestha/" class="bi bi-linkedin text-warning mx-2"></a>
+                        <a href="https://twitter.com/yashcrest" class="bi bi-twitter text-warning mx-2"></a>
+                    </div>
                 </div>
-                <!-- if no img-fluid is used, it will brk out of its container. -->
-                <img class="img-fluid w-50 d-none d-sm-block" src="img/showcase.svg" alt="">
+                <img class="img-fluid w-50 d-none d-sm-block" src="img/qOpQMP01.svg" alt="">
             </div>
         </div>
     </section>
 
-    <!-- Newsletter -->
-    <section class="bg-warning text-light p-5">
+    <!-- Projects -->
+    <section class="bg-light p-5" id="projects">
         <div class="container">
-            <div class="d-md-flex justify-content-between align-items-center">
-                <h3 class="mb-3 mb-md-0">Sign up for our newsletter</h3>
-                <div class="input-group news-input">
-                    <input type="text" class="form-control" placeholder="Enter email">
-                    <button class="btn btn-dark btn-lg" type="button">Click me</button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Boxes -->
-    <section class="p-5">
-        <div class="container">
+            <h1 class="d-flex justify-content-center pb-2">Projects
+                <i class="bi bi-code-slash mx-3"></i>
+            </h1>
+            <!-- 1st row -->
             <div class="row text-center g-4">
                 <div class="col-md">
-                    <div class="card bg-dark text-light">
+                    <div class="card bg-light h-100">
                         <div class="card-body text-center">
-                            <div class="h1 mb-3">
-                                <i class="bi bi-laptop"></i>
-                            </div>
-                            <h3 class="card-title mb-3">Virtual</h3>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum amet officia dolorum explicabo voluptatum fuga.
-                            </p>
-                            <a href="#" class="btn btn-primary">Read More</a>
+                            <h2 class="mb-3">Chat Server</h2>
+                            <img src="img/ydAxwf01.svg" alt="" class="card-image w-50">
+                            <p class="card-text">Simple chat server made with NodeJS. Simple chat server made with NodeJS</p>
+                            <a href="https://github.com/yashcrest" class="h2 card-link">
+                                <i class="bi bi-github text-dark"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md">
-                    <div class="card bg-dark text-light">
+                    <div class="card bg-light h-100">
                         <div class="card-body text-center">
-                            <div class="h1 mb-3">
-                                <i class="bi bi-person"></i>
-                            </div>
-                            <h3 class="card-title mb-3">Virtual</h3>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum amet officia dolorum explicabo voluptatum fuga.
-                            </p>
-                            <a href="#" class="btn btn-primary">Read More</a>
+                            <h2 class="mb-3">CLI note taking</h2>
+                            <img src="img/web-development-svgrepo-com.svg" alt="" class="card-image w-50">
+                            <p class="card-text">Simple chat server made with NodeJS</p>
+                            <a href="https://github.com/yashcrest" class="h2 card-link">
+                                <i class="bi bi-github text-dark"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md">
-                    <div class="card bg-dark text-light">
+                    <div class="card bg-light">
+                        <div class="card-body text-center h-100">
+                            <h2 class="mb-3">Web scrapping</h2>
+                            <img src="img/web-development-svgrepo-com.svg" alt="" class="card-image w-50">
+                            <p class="card-text">Simple chat server made with NodeJS</p>
+                            <a href="https://github.com/yashcrest" class="h2 card-link">
+                                <i class="bi bi-github text-dark"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 2nd row -->
+            <div class="row text-center g-4 my-2">
+                <div class="col-md">
+                    <div class="card bg-light h-100">
                         <div class="card-body text-center">
-                            <div class="h1 mb-3">
-                                <i class="bi bi-people"></i>
-                            </div>
-                            <h3 class="card-title mb-3">Virtual</h3>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum amet officia dolorum explicabo voluptatum fuga.
-                            </p>
-                            <a href="#" class="btn btn-primary">Read More</a>
+                            <h2 class="mb-3"></h2>
+                            <img src="img/ydAxwf01.svg" alt="" class="card-image w-50">
+                            <p class="card-text">Simple chat server made with NodeJS. Simple chat server made with NodeJS</p>
+                            <a href="https://github.com/yashcrest" class="h2 card-link">
+                                <i class="bi bi-github text-dark"></i>
+                            </a>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Learn Sections -->
-    <section id="learn" class="p-5">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-md">
-                    <img src="img/fundamentals.svg" class="img-fluid" alt="">
-                </div>
-                <div class="col-md p-5">
-                    <h2>Learn The fundamentals</h2>
-                    <p class="lead">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id velit quisquam, officia dolorem perspiciatis recusandae.
-                    </p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae tempore dignissimos illum nostrum neque, labore itaque, vel eius provident nemo aliquid, illo deleniti doloribus? Aliquam qui voluptas laudantium explicabo deserunt.</p>
-                    <a href="#" class="btn btn-light mt-3">
-                       <i class="bi bi-chevron-right"></i>Read More
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="learn" class="p-5 bg-dark text-light">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-md p-5">
-                    <h2>Learn React</h2>
-                    <p class="lead">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id velit quisquam, officia dolorem perspiciatis recusandae.
-                    </p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae tempore dignissimos illum nostrum neque, labore itaque, vel eius provident nemo aliquid, illo deleniti doloribus? Aliquam qui voluptas laudantium explicabo deserunt.</p>
-                    <a href="#" class="btn btn-light mt-3">
-                       <i class="bi bi-chevron-right"></i>Read More
-                    </a>
                 </div>
                 <div class="col-md">
-                    <img src="img/react.svg" class="img-fluid" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Questions Accordion -->
-    <section class="p-5" id="questions">
-        <div class="container">
-            <h2 class="text-center mb-4">Frequently Asked questions</h2>
-            <div class="accordion accordion-flush" id="questions">
-                <!-- Item 1 -->
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questions-one">
-                      Where exactly are you located?
-                    </button>
-                  </h2>
-                  <div id="questions-one" class="accordion-collapse collapse" data-bs-parent="#questions">
-                    <div class="accordion-body">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error deleniti adipisci ab ut blanditiis corrupti repellendus, ratione consequuntur iusto totam neque perspiciatis sint sequi debitis. Eligendi minus dolorem suscipit non ab voluptatum et fugit eaque facere, distinctio accusantium recusandae inventore vel animi quibusdam facilis quod necessitatibus alias accusamus cum dolores.
-                    </div>
-                  </div>
-                </div>
-                <!-- Item 2 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questions-two">
-                        How much does it cost to attend?
-                      </button>
-                    </h2>
-                    <div id="questions-two" class="accordion-collapse collapse" data-bs-parent="#questions">
-                      <div class="accordion-body">
-                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error deleniti adipisci ab ut blanditiis corrupti repellendus, ratione consequuntur iusto totam neque perspiciatis sint sequi debitis. Eligendi minus dolorem suscipit non ab voluptatum et fugit eaque facere, distinctio accusantium recusandae inventore vel animi quibusdam facilis quod necessitatibus alias accusamus cum dolores.
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Item 3 -->
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questions-three">
-                        What do I need to know?
-                      </button>
-                    </h2>
-                    <div id="questions-three" class="accordion-collapse collapse" data-bs-parent="#questions">
-                      <div class="accordion-body">
-                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error deleniti adipisci ab ut blanditiis corrupti repellendus, ratione consequuntur iusto totam neque perspiciatis sint sequi debitis. Eligendi minus dolorem suscipit non ab voluptatum et fugit eaque facere, distinctio accusantium recusandae inventore vel animi quibusdam facilis quod necessitatibus alias accusamus cum dolores.
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Item 4 -->
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questions-four">
-                        How do I sign up?
-                      </button>
-                    </h2>
-                    <div id="questions-four" class="accordion-collapse collapse" data-bs-parent="#questions">
-                      <div class="accordion-body">
-                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error deleniti adipisci ab ut blanditiis corrupti repellendus, ratione consequuntur iusto totam neque perspiciatis sint sequi debitis. Eligendi minus dolorem suscipit non ab voluptatum et fugit eaque facere, distinctio accusantium recusandae inventore vel animi quibusdam facilis quod necessitatibus alias accusamus cum dolores.
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Item 4 -->
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questions-five">
-                        Can you help me find a job?
-                      </button>
-                    </h2>
-                    <div id="questions-five" class="accordion-collapse collapse" data-bs-parent="#questions">
-                      <div class="accordion-body">
-                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error deleniti adipisci ab ut blanditiis corrupti repellendus, ratione consequuntur iusto totam neque perspiciatis sint sequi debitis. Eligendi minus dolorem suscipit non ab voluptatum et fugit eaque facere, distinctio accusantium recusandae inventore vel animi quibusdam facilis quod necessitatibus alias accusamus cum dolores.
-                      </div>
-                    </div>
-                  </div>
-              </div>
-        </div>
-    </section>
-
-    <!-- Instructors -->
-    <section id="instructors" class="p-3 bg-warning">
-        <div class="container">
-            <h2 class="text-center text-white">Our instructors</h2>
-            <p class="lead text-center text-white mb-5">Our Instructors all have 5+ years of working as a web developer in the industry</p>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-3">
-                    <div class="card bg-light">
-                        <div class="card-body  text-center ">
-                            <img src="https://randomuser.me/api/portraits/men/1.jpg" class="rounded-circle mb-3" alt="">
-                            <h3 class="card-title mb-3">John Doe</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut numquam, delectus porro facere rerum unde!</p>
-                            <a href="#"><i class="bi bi-twitter text-warning"></i></a>
-                            <a href="#"><i class="bi bi-facebook text-warning"></i></a>
-                            <a href="#"><i class="bi bi-linkedin text-warning"></i></a>
-                            <a href="#"><i class="bi bi-instagram text-warning"></i></a>
+                    <div class="card bg-light h-100">
+                        <div class="card-body text-center">
+                            <h2 class="mb-3">Timer</h2>
+                            <img src="img/web-development-svgrepo-com.svg" alt="" class="card-image w-50">
+                            <p class="card-text">Simple chat server made with NodeJS</p>
+                            <a href="https://github.com/yashcrest" class="h2 card-link">
+                                <i class="bi bi-github text-dark"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="card bg-light">
-                        <div class="card-body  text-center ">
-                            <img src="https://randomuser.me/api/portraits/men/20.jpg" class="rounded-circle mb-3" alt="">
-                            <h3 class="card-title mb-3">Jack Nicholson</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut numquam, delectus porro facere rerum unde!</p>
-                            <a href="#"><i class="bi bi-twitter text-warning"></i></a>
-                            <a href="#"><i class="bi bi-facebook text-warning"></i></a>
-                            <a href="#"><i class="bi bi-linkedin text-warning"></i></a>
-                            <a href="#"><i class="bi bi-instagram text-warning"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="card bg-light">
-                        <div class="card-body  text-center ">
-                            <img src="https://randomuser.me/api/portraits/men/13.jpg" class="rounded-circle mb-3" alt="">
-                            <h3 class="card-title mb-3">Harry Maguire</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut numquam, delectus porro facere rerum unde!</p>
-                            <a href="#"><i class="bi bi-twitter text-warning"></i></a>
-                            <a href="#"><i class="bi bi-facebook text-warning"></i></a>
-                            <a href="#"><i class="bi bi-linkedin text-warning"></i></a>
-                            <a href="#"><i class="bi bi-instagram text-warning"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="card bg-light">
-                        <div class="card-body  text-center">
-                            <img src="https://randomuser.me/api/portraits/women/30.jpg" class="rounded-circle mb-3" alt="">
-                            <h3 class="card-title mb-3">Sarah smith</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut numquam, delectus porro facere rerum unde!</p>
-                            <a href="#"><i class="bi bi-twitter text-warning"></i></a>
-                            <a href="#"><i class="bi bi-facebook text-warning"></i></a>
-                            <a href="#"><i class="bi bi-linkedin text-warning"></i></a>
-                            <a href="#"><i class="bi bi-instagram text-warning"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact and Map -->
-    <section class="p-5">
-        <div class="container">
-            <div class="row g-4">
                 <div class="col-md">
-                    <h2 class="text-center mb-4">Contact Info</h2>
-                    <ul class="list-group list-group-flush lead">
-                        <li class="list-group-item">
-                            <span class="fw-bold">Main Location:</span> 83 King William Road Unley SA
-                        </li>
-                    </ul>
+                    <div class="card bg-light">
+                        <div class="card-body text-center h-100">
+                            <h2 class="mb-3">To Do List</h2>
+                            <img src="img/web-development-svgrepo-com.svg" alt="" class="card-image w-50">
+                            <p class="card-text">Simple chat server made with NodeJS</p>
+                            <a href="https://github.com/yashcrest" class="h2 card-link">
+                                <i class="bi bi-github text-dark"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- Contact Form -->
+    <div class="section bg-warning text-dark p-5 position-relative" id="contact">
+        <div class="container">
+            <div class="text-center">
+                <h1>Get in touch</h1>
+                <p class="lead">Please feel free to get in touch with me!</p>
+            </div>
+            <form action="">
+                <div class="row">
+                    <div class="col">
+                        <label for="" class="lead">Full Name:</label>
+                        <input type="text" class="form-control bg-transparent no-outline" placeholder="Full Name">
+                    </div>
+                    <div class="col">
+                        <label for="" class="lead">Email:</label>
+                        <input type="email" class="form-control bg-transparent no-outline" placeholder="Email">
+                    </div>
+                    <label for="" class="lead py-2">Message:</label>
+                    <textarea name="" id="" cols="30" rows="10" class="bg-transparent no-outline"></textarea>
+                </div>
+            </form>
+            <div class="d-flex justify-content-end my-4">
+                <button class="btn btn-dark">Send
+                    <i class="bi bi-envelope mx-1"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer  -->
+    <footer class="bg-dark text-white p-4 text-center position-relative">
+        <div class="container text-warning">
+            <p class="lead">Copyright &copy; 2022 Yash Shrestha</p>
+            <a href="https://github.com/yashcrest" class="h1 px-2">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://linkedin.com/yash-shrestha" class="h1 px-2">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://twitter.com/yashcrest" class="h1 px-2">
+                <i class="bi bi-twitter"></i>
+            </a>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5 text-white">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>            
+        </div>
+    </footer>     
 </body>
 </html>
